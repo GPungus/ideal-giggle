@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Times New Roman", serif;
+  font-family: "Helvetica", serif;
   font-size: 16px;
   line-height: 2;
   color: #111111;
@@ -92,15 +92,15 @@ code {
 .nav-simple a {
   display: block;
   padding: 8px 16px;
-  color: #0066CC;
+  color: hsl(110, 90%, 50%);
   text-decoration: none;
   background-color: #fafafa;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 5px solid rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-simple a:hover {
-  background-color: #0066CC;
+  background-color: #cc8f00;
   color: #ffffff;
 }
 
